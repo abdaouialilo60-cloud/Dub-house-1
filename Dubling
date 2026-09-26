@@ -1,0 +1,5 @@
+git clone https://github.com/k2-fsa/sherpa-onnx.git temp-dub && mkdir Dub-House && cp -r temp-dub/android/* Dub-House/ && cd Dub-House
+git init && git add . && git commit -m "Dub House v1.0"
+git branch -M main
+git remote add origin https://github.com/USERNAME/Dub-House.git
+git push -u origin main
